@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computer Accesssories</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            background-color: rgb(255, 255, 255);
+        }
+        .container{
+            width: 90px;
+            padding: 20px;
+            margin: 100px auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+        }
+        p{
+            padding-top: 10px;
+            background: none;
+        }
+        .box-pop{
+            width: 100px;
+            height: 100px;
+            margin: 0 10px;
+            padding: 50px;
+            background-color:rgb(220, 224, 224);
+            display: flex;
+            flex-wrap: wrap;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+            box-shadow: 0 0 20px 2px rgba(rgb(247, 244, 244));
+            transition: 1s;
+            display: block;
+        }
+        img:hover{
+            transform: scale(1.3);
+            z-index:2;
+        }
+        .container h1{
+            position: absolute;
+            margin-top: -70px;
+            text-decoration: underline;
+            font-size:medium;
+        }
+        .context{
+            box-shadow: 0px 10px 10px #f5ecec;
+            padding: 10px 10px;
+            margin:10px;
+        }
+        .context:hover{
+            color:rgb(15, 235, 235)
+            
+        }
+ 
+
+    </style>
+    <body>
+        <div class="container">
+            <h1>POPULAR CATEGORIES</h1>
+            <div class="box-pop">
+                <img src="image-1.jpg">
+                <p>HEADPHONES</p><br>
+                <p class="context">Wireless Headphone<i style="font-size:24px" class="fa">&#xf054;</i></p>
+                <p class="context">Sports Headphone<i style="font-size:24px" class="fa">&#xf054;</i></p>
+                <p class="context">Gaming Headphone<i style="font-size:24px" class="fa">&#xf054;</i></p>
+                <p class="context">Neckband Headphone<i style="font-size:24px" class="fa">&#xf054;</i></p>
+            </div>
+            <div class="box-pop">
+                <img src="image-2.jpg">
+                <p>SPEAKERS</p><br><br>
+                <p class="context">Bluetooth Speaker</p>
+                <p class="context">Laptop Speaker</p>
+                <p class="context">Waterproof Speaker</p>
+                <p class="context">Mini Speaker</p>
+            </div>
+            <div class="box-pop">
+                <img src="image-3.jpg">
+                <p>MOBILE ACCESSORIES</p>
+                <p class="context">Charger And Adapters</p>
+                <p class="context">Data Cables</p>
+                <p class="context">Power Bank</p>
+                <p class="context">Memory Card</p>
+            </div>
+            <div class="box-pop">
+                <img src="image-4.jpg">
+                <p>COMPUTER ACCESSORIES</p>
+                <p class="context">Antivirus Software</p>
+                <p class="context">Keyboard</p>
+                <p class="context">Mouse</p>
+                <p class="context">External Hard Disk</p>
+            </div>
+            <div class="box-pop">
+                <img src="image-5.jpg">
+                <p>LAPTOP ACCESSORIES</p>
+                <p class="context">Cooling Pad</p>
+                <p class="context">Laptop Stand</p>
+                <p class="context">Surge Protector</p>
+                <p class="context">Pen drives</p>
+            </div>
+            <div class="box-pop">
+                <img src="image-6.jpg">
+                <p>COMPUTER COMPONENTS</p>
+                <p class="context">Computer Memory</p>
+                <p class="context">Motherboards</p>
+                <p class="context">Solid State Drive</p>
+                <p class="context">Graphic Card</p>
+            </div>
+            <div class="box-pop">
+                <img src="image-7.jpeg">
+                <p>NETWORKING DEVICES</p>
+                <p class="context">Wifi Routers</p>
+                <p class="context">Network Switch</p>
+                <p class="context">Wireless USB Adapter</p>
+                <p class="context">Range Extenders </p>
+            </div>
+
+        </div>
+    </body>
+</html>
